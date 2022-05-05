@@ -7,7 +7,10 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   let card = generarcarta();
-
+  if (card[0] == "♥" || card[0] == "♦") {
+    document.querySelector(".topicon").style.color = "red";
+    document.querySelector(".bottomicon").style.color = "red";
+  }
   document.querySelector(".topicon").innerHTML = card[0];
   document.querySelector(".number").innerHTML = card[1];
   document.querySelector(".bottomicon").innerHTML = card[0];

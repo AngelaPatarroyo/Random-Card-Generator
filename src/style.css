@@ -13,7 +13,7 @@ body {
 
 .topicon {
   font-size: 150px;
-  color: red;
+
   padding-left: 10px;
   position: absolute;
 }
@@ -26,7 +26,6 @@ body {
 }
 
 .bottomicon {
-  color: red;
   transform: rotate(180deg);
   position: absolute;
   margin-top: 500px;
